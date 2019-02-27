@@ -1,0 +1,8 @@
+Este aplicativo armezena tarefas que são exibidas em uma lista, o usuário pode criar, editar e excluir tarefas.
+Através do FloatingActionButton adicionamos uma tarefa. A edição e a exclusão é feita através de cliques curtos e longos,
+respectivamente.
+Usamos para transformar numa View o xml contendo o layout do item da lista o método inflate do LayoutInflater.
+O armazenamento das tarefas é feito com SQLite
+Através do menu_main.xml podemos também adicionar vários itens para trabalharmos a lista de tarefas, nesse caso é colocado
+apenas o menu no canto superior direito da tela, mas não executa nenhuma ação.
+O menu_adicionar_tarefa.xml tem a função de interagir com o usuário para salvar as tarefas adicionadas e editadas.
